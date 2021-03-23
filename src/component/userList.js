@@ -26,7 +26,7 @@ const TodoList = ({ AllUser }) => (
 // };
 
 const mapStateToProps = state => {
-  
+  // setUserState();
   const AllUser = getUserState(state);
   console.log(AllUser);
   return { AllUser};
